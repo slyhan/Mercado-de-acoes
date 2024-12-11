@@ -1,13 +1,39 @@
-# Mercado-de-acoes
+Projeto de Análise de Mercado de Ações
 
-Alguns KPIS para o dashboard:
-1 - Preço médiode fechamento por empresa
-2 - Volume médio de negociação por empresa
-3 - Variação percentual diária
-4 - Máximo e mínimo histórico do preço de fechamento
-5 - Volatilidade intradiaria (High - Low)
-6 - Empresa com maior volume de negociação
-7 - Tendência do preço de fechamento por empresa
-8 - Performance semanal/mensal
-9 - Ranking de empresas por desempenho
-10 - Correlação entre volume e variação de preço
+Descrição
+
+Este projeto consiste em uma análise do mercado de ações utilizando dados históricos de empresas listadas na bolsa de valores. O objetivo é identificar padrões, insights e tendências que possam auxiliar na tomada de decisões financeiras. A análise é realizada através da ferramenta Power BI para manipulação de dados e visualizações.
+
+Dataset
+
+O dataset utilizado possui as seguintes colunas:
+
+empresa: Nome da empresa listada na bolsa.
+
+data: Data do registro.
+
+close: Preço de fechamento da ação no dia.
+
+volume: Volume negociado no dia.
+
+open: Preço de abertura da ação no dia.
+
+high: Maior preço atingido durante o dia.
+
+low: Menor preço atingido durante o dia.
+
+Objetivos do Projeto
+
+Exploração de Dados:
+
+Identificar padrões nos preços de fechamento.
+
+Analisar a volatilidade das ações.
+
+Avaliar o volume de negociações ao longo do tempo.
+
+Visualizações:
+
+Criação de gráficos de séries temporais para preços de abertura, fechamento, máximos e mínimos.
+
+Gráficos de dispersão para correlacionar volume e preço.
